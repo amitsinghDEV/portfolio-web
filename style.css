@@ -573,7 +573,7 @@ footer p {
   header {
     padding: 5px 3rem;
   }
-  .hero_img{
+  .hero_img, .hero_img img{
     z-index:-10;
   }
 
