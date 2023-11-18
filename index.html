@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <header data-aos="fade-down"
+    data-aos-duration="1000">
+      <h1 class="logo">Amit.Dev</h1>
+      <nav  data-aos="fade-down"
+    data-aos-duration="1500" id="desktop-nav">
+        <a href="#AboutSection">About</a>
+        <a href="#SkillSection">Skills</a>
+        <a href="#ProjectSection">Projects</a>
+        <a href="#ContactSection">Contact</a>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#AboutSection" onclick="toggleMenu()">About</a></li>
+            <li><a href="#SkillSection" onclick="toggleMenu()">Skills</a></li>
+            <li>
+              <a href="#ProjectSection" onclick="toggleMenu()">Projects</a>
+            </li>
+            <li>
+              <a href="#ContactSection" onclick="toggleMenu()">Contact</a>
+            </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="HeroSection">
+        <div data-aos="fade-right" class="hero_desc">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">AMIT SINGH</h1>
+          <p class="section__text__p2">Frontend Developer</p>
+          <p class="section__text__p3">Based in Delhi NCR, INDIA</p>
+
+          <div  data-aos="fade-left"
+    data-aos-duration="1000" class="btn-container">
+            <button
+              class="button-50"
+              role="button"
+              onclick="window.open('./assets/resume/amit resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="button-51"
+              role="button"
+              onclick="location.href='./#contact'"
+            >
+              Contact
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/images/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/amit-singh-84a50a233'"
+            />
+            <img
+              src="./assets/images/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/amitsinghDEV'"
+            />
+          </div>
+        </div>
+        <div data-aos="fade-left" class="hero_img">
+          <img src="./assets/images/profilepic.png" alt="profile picture" />
+        </div>
+      </section>
+      <div class="scroll_logo">
+        <img src="./assets/logos/arrow.png" alt="" />
+      </div>
+      <section id="AboutSection">
+        <p class="section__text">Get To Know More</p>
+        <h1 class="section-title">About Me</h1>
+        <div class="section-container">
+          <div class="about-pic">
+            <img
+              src="./assets/images/illu.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-desc">
+            <div class="about-desc-up">
+ <p>
+                My name is Amit Singh and i am passionate about creating
+                pixel-perfect user interfaces and engaging web experiences, I
+                strive to bring websites to life with my coding skills and eye
+                for design. With a strong foundation in HTML, CSS, and
+                JavaScript, I am constantly expanding my knowledge to stay
+                up-to-date with the latest web development trends and
+                techniques. And my goal is to be a full stack web developer with
+                designing skills.
+              </p>
+            </div>
+            <div class="about-desc-down">
+  <img
+                src="./assets/images/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                Masters Degree in Computer Application (2021-23)<br />
+                -Dr.A.P.J Abdul Kalam Technical University. <br />
+              </p>
+              <p>
+                Bachelors Degree in Computer Application (2018-21) <br />
+                -Chaudhary Charan Singh University.
+              </p>
+            </div>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="SkillSection">
+  <p class="section__text">Explore My</p>
+      <h1 class="section-title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Tech Stack</h2>
+            <div  data-aos="zoom-in"
+    data-aos-duration="300" class="article-container">
+              <article>
+                <img
+                  src="./assets/logos/html-1.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/logos/css-3.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/logos/logo-javascript.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/logos/react-2.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>REACT</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/logos/tailwind-css-2.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind & Bootstrap</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/logos/vitejs.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Vite.Js</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/logos/node-js.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NodeJs</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/logos/fire-solid.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Firebase</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/logos/gsap-greensock.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GSAP</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/logos/sass.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS </h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      </section>
+      <section id="ProjectSection">
+ <p class="section__text">Browse My Recent</p>
+      <h1 class="section-title">Projects</h1>
+      <div class="project_cards">
+        <div
+          data-aos="flip-right"
+          data-aos-duration="700"
+          class="project_card_one"
+        >
+          <div class="project_img">
+            <img src="./assets/images/proj1.JPG" alt="" />
+          </div>
+          <div class="project_title"><h2>TARA (E-commerse Store)</h2></div>
+          <div class="project_desc">
+            <p>Tech stack : React , Tailwind , REACT Router</p>
+          </div>
+          <div class="project_links">
+            <button
+              class="btn_black"
+              onclick="window.open('https://amitsinghdev.github.io/eCommerse/')"
+            >
+              Live
+            </button>
+            <button
+              onclick="window.open('https://github.com/amitsinghDEV/e-commerse-code')"
+            >
+              Code
+            </button>
+          </div>
+        </div>
+        <div
+          data-aos="flip-down"
+          data-aos-duration="700"
+          class="project_card_two"
+        >
+          <div class="project_img">
+            <img src="./assets/images/proj2.JPG" alt="" />
+          </div>
+          <div class="project_title">
+            <h2>CoinEarth (Crypto coin Analytics webpage)</h2>
+          </div>
+          <div class="project_desc">
+            <p>Tech stack : React , Tailwind , REACT Router, firebase, API</p>
+          </div>
+          <div class="project_links">
+            <button
+              class="btn_black"
+              onclick="window.open('https://amitsinghdev.github.io/CoinEarth/')"
+            >
+              Live
+            </button>
+            <button
+              onclick="window.open('https://github.com/amitsinghDEV/coinearth-code')"
+            >
+              Code
+            </button>
+          </div>
+        </div>
+        <div
+          data-aos="flip-left"
+          data-aos-duration="700"
+          class="project_card_three"
+        >
+          <div class="project_img">
+            <img src="./assets/images/proj3.JPG" alt="" />
+          </div>
+          <div class="project_title">
+            <h2>FoodTastic (Food ordering page)</h2>
+          </div>
+          <div class="project_desc">
+            <p>Tech stack : React , Tailwind , JSON</p>
+          </div>
+          <div class="project_links">
+            <button
+              class="btn_black"
+              onclick="window.open('https://amitsinghdev.github.io/food-app/')"
+            >
+              Live
+            </button>
+            <button
+              onclick="window.open('https://github.com/amitsinghDEV/Food-code')"
+            >
+             Code </button>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      </section>
+      <section id="ContactSection">
+
+          <p class="section__text">Get in Touch</p>
+      <!-- code start -->
+      <h1 class="section-title">Contact Me</h1>
+      <div data-aos="zoom-in" class="container">
+        <form action="">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Email">E-mail</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="C_email"
+                name="Email"
+                placeholder="Your E-mail.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="C_subject"
+                name="Email"
+                placeholder="Your Subject.."
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Message</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="C_message"
+                name="message"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="button" value="Submit" onclick="send()" />
+          </div>
+        </form>
+      </div>
+      <!-- code end -->
+      </section>
+    </main>
+    <footer>
+
+ <nav id="footer-nav">
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#AboutSection">About</a></li>
+            <li><a href="#SkillSection">Skills</a></li>
+            <li><a href="#ProjectSection">Projects</a></li>
+            <li><a href="#ContactSection">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Amit Singh. All Rights Reserved.</p>
+
+    </footer>
+     <script>
+      AOS.init();
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+      
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
