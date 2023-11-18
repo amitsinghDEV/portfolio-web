@@ -468,6 +468,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   margin-top: 2rem;
+  padding:0 5rem;
 }
 
 input[type="text"],
@@ -582,6 +583,9 @@ footer p {
 
   main {
     padding: 5px 15px;
+  }
+  #ContactSection{
+    padding:5px 15px;
   }
 
   #desktop-nav {
