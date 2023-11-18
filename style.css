@@ -86,7 +86,7 @@ nav a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
-  z-index:11;
+  
 }
 
 .menu-links a {
@@ -135,6 +135,7 @@ main {
   position: relative;
   overflow: hidden;
   padding: 0 5rem;
+  z-index:-5;
 }
 .icon {
   cursor: pointer;
