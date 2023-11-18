@@ -54,8 +54,10 @@ nav a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  z-index:100;
   
 }
+
 
 .hamburger-icon {
   display: flex;
@@ -574,9 +576,7 @@ footer p {
   header {
     padding: 5px 3rem;
   }
-  .hero_img, .hero_img img{
-    z-index:-10;
-  }
+ 
 
   main {
     padding: 5px 15px;
